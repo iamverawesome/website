@@ -1,0 +1,65 @@
+Main#grid-area{
+Display: grid;
+Grid-gap: 20px;
+Grid-template-columns:repeat(auto-fill,minmax(300px, 1fr));
+}
+Article img{
+Display:block;
+Margin: auto;
+}
+Article h1{
+Text-align: center;
+padding: 5 5 5 5;
+}
+Article table{
+Margin: auto;
+}
+Article td{
+Text-align center;
+}
+Article caption{
+Font-weight: bold;
+}
+Main{background-color: #FF0000;
+}
+Article {
+Border: 2px solid black;
+Border-radius: 60px 60px
+}
+Table{
+Margin: auto;
+Background-size: 120px 120px;
+}
+form#rating fieldset, select 
+{
+Background-color: #cccccc;
+Border-color: #000000;
+padding: 5px 10px;
+}
+form#rating label {
+  color: var(#000000);
+  font-weight: bold;
+  font-size: .95em;
+}
+div.formRow{
+  display: flex;
+  flex-flow: row wrap;
+  margin: 7px;
+}
+div.formRow input, div.formRow select{
+  width: 250px;
+}
+div.formRow label{
+  width: 150px;
+}
+
+form#rating textarea{
+display: block;
+width: 95%;
+Max-width:450px;
+Padding: 5px;
+Margin: 10px;
+}
+Label{
+display: block;
+}

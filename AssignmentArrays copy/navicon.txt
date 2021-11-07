@@ -1,0 +1,26 @@
+.layout{
+grid-template-areas:"header"
+                    "nav"
+                    "section"
+                    "main"
+                    "footer"
+}
+
+#navicon {display: none;}
+
+@media (max-width: 480px){
+section{ background:none;
+padding: 0px;
+height: auto;
+h2{
+text-shadow: none;
+color: black;
+}
+.navicon {display: block;}}
+nav ul{ display: none;}
+nav ul li{ display: block;
+}
+#navicon:hover+ul, nav ul:hover {
+  display:block;
+  float: none;
+} 

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>	
+	
+	<head>
+	<title>HawtMunchies.com</title>
+	<link href="base.css" rel="stylesheet" type:"text/css">
+	<link href="style1.css" rel="stylesheet" type:"text/css">
+	<link href="layout_style.css" rel="stylesheet" type:"text/css">
+	<link href="style_table_form.css" rel="stylesheet" type:"text/css">
+	<link href="navicon.css" rel="stylesheet" type:"text/css">
+	</head>
+	<nav>
+	<a id="favicon href="#"><img src="favicon.png" width="32px" /></a>
+	</nav>
+	<body>
+	<div id="layout">
+	<title>Contact Us at Hawt Munchies</title>
+	<h2>Contact Us</h2>
+	<main>
+<p>* indicates a required field</p>
+<form name="contactForm" id="contactForm"  method=post action="mailto:contactus@hawtmunchies.com">
+
+<fieldset id="contactFields">
+<legend align=top>Contact Information</legend>
+
+<div class="formRow">
+<label for="pname">Name<span style="color:#ff0000">*</span></label>
+<input type="text" id="name" name="name">
+</div>
+<div class="formRow">
+<label for="mail">Email Address<span style="color:#ff0000">*</span></label>
+<input type="email" id="email" name="mail">
+</div>
+<div class="formRow">
+<label for="phone">Phone</label>
+<input type="phone" id="phone" name="tel">
+</div>
+</fieldset>
+
+<fieldset id="request">
+<legend align=top>Information Request</legend>
+<div class="formRow">
+<label for="pname">Request Topic<span style="color:#ff0000">*</span></label>
+<select name="topic" id="topic">
+			<option selected="selected"></option>
+            <option>Production Information</option>
+            <option>Purchase Information</option>
+            <option>Returns</option>
+            <option>Internation Shipping</option>
+</select>
+</div>
+<div class="formRow">
+<label for="subject">Subject<span style="color:#ff0000">*</span></label>
+<input type="text" id="subject" name="subject">
+</div>
+<div class="formRow">
+<label for="phone">Ask Us a Question<span style="color:#ff0000">*</span</label>
+<textarea id="Message" name="Message" class="fcf-form-control" rows="5" maxlength="55" required></textarea>
+</div>
+</fieldset>
+
+<fieldset id="maillist">
+<legend align=top>Do you want to be on our mailing list?</legend>
+ 	<input type="radio" name="mYes" value="Yes" id="mYes"/>
+    <label for="mYes">Yes</label>
+    <input type="radio" name="mNo" value="No" id="mNo"/>
+    <label for="mNo">No</label>
+<br>  
+<button type="submit">Submit Question</button>  
+<button type="cancel">Cancel</button>
+</fieldset>
+</form>
+</main>
+
+	<footer></footer>
+	</div>
+	</body>
+</html>

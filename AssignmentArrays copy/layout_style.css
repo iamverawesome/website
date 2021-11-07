@@ -1,0 +1,29 @@
+<style type="text/css">
+	Header{
+	display:grid;
+	grid-column-start: 1;
+	grid-column-end:3;
+	{
+	section{
+	display:grid;
+	}
+	main{
+	display:grid;
+	width: 90%;
+	max-width:1000px;
+	margin: auto;
+	}
+	footer{
+	display:grid;
+	}
+	.layout{
+	grid-gap:0px
+	}
+	nav li{
+	display:inline-block;
+	}
+	nav ul{
+	float:right;
+	}
+</style>
+	

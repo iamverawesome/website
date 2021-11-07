@@ -1,0 +1,35 @@
+Article, aside, details, dl, figcaption, figure, footer, header, main, nav, section{
+Display: block;
+}
+
+Body{
+	margin: 0px;
+	Padding: 0px;
+}
+P{
+	margin: 0px;
+	padding: 5px;
+}
+H1{
+	margin: 0px;
+	padding: 5px;
+}
+H2{
+	margin: 0px;
+	padding: 5px;
+}
+H3{
+	margin: 0px;
+	padding: 5px;
+}
+H4{
+	margin: 0px;
+	padding: 5px;
+}	
+Nav{
+	display: block;
+}
+ul{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
